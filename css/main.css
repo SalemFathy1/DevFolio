@@ -91,7 +91,7 @@ section {
 .content span::after {
   padding-right: 2px;
   content: "";
-  animation: typing 4s 4s infinite, designer 8s 4s infinite;
+  animation: typing 3s infinite;
   padding-right: 4px;
 }
 
@@ -154,62 +154,7 @@ section {
     content: "";
   }
 }
-@keyframes designer {
-  0% {
-    content: "D";
-  }
-  6% {
-    content: "De";
-  }
-  12% {
-    content: "Des";
-  }
-  18% {
-    content: "Desi";
-  }
-  24% {
-    content: "Desig";
-  }
-  30% {
-    content: "Design";
-  }
-  36% {
-    content: "Designe";
-  }
-  42% {
-    content: "Designer";
-  }
-  48% {
-    content: "Designe";
-  }
-  54% {
-    content: "Design";
-  }
-  60% {
-    content: "Desig";
-  }
-  66% {
-    content: "Desi";
-  }
-  72% {
-    content: "Des";
-  }
-  78% {
-    content: "De";
-  }
-  80% {
-    content: "D";
-  }
-  85% {
-    content: "De";
-  }
-  95% {
-    content: "D";
-  }
-  100% {
-    content: "";
-  }
-}
+
 /* ==============[End Header]================ */
 
 /* ==============[Start About]================ */
